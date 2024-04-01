@@ -1,12 +1,18 @@
 import styles from "./index.module.scss";
-import Intro from "../Intro";
-import Avatar from "../Avatar";
+import { useState } from "react";
+// import Intro from "../Intro";
+// import Avatar from "../Avatar";
+// import Skill from "../Skill";
+// import dataForDeveloperCard from "../DataForDeveloperCard";
 
 const Card = () => {
+
+
+
+
 	return (
 		<div className={styles.card}>
-			<Avatar />
-			<Intro />
+
 		</div>
 	);
 };
