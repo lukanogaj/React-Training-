@@ -1,11 +1,11 @@
 import "./App.css";
 import Layout from "./components/Layout";
-import Card from "./components/Card";
-
+import MyComponent from "./components/MyComponent";
 function App() {
 	return (
 		<Layout>
-			<Card />
+			{/* <TipCalculator /> */}
+			<MyComponent />
 		</Layout>
 	);
 }
